@@ -91,7 +91,7 @@ const SignUp = () => {
 						</Col>								</FormGroup>
 						</CardBody>
 						<CardFooter>
-						<Button type='submit' block color='primary'>
+						<Button type='submit' block style={{ backgroundColor: '#2C3335' }} dark expand='md'>
 						Sign Up
 						</Button>
 					</CardFooter>

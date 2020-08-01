@@ -8,9 +8,11 @@ const Footer= () => {
         <Container
         fluid
         tag="footer"
-        className="text-center bg-info text-white text-uppercase fixed-bottom
-        p-3">
+        className="text-center text-white text-uppercase fixed-bottom
+        p-3" style={{ backgroundColor: '#2C3335' }} dark expand='md'>
         Github Search App with Firebase
+         <br/>
+         &copy;GitFireApp
         </Container>
     )
 }

@@ -1,6 +1,9 @@
 import React,{useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
+
+import './css/main.css'
+
 //bootstrap
 import "bootstrap/dist/css/bootstrap.min.css"
 
@@ -49,6 +52,20 @@ const App = () => {
         <Route exact path="/signup" component={SignUp} />
         <Route exact path="*" component={PageNotFound} />
       </Switch>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      
       <Footer/>
      </UserContext.Provider>
     </BRouter>

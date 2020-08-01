@@ -44,10 +44,17 @@ const Home = () => {
  }
 
   return(
-    <Container>
-    <Row className=" mt-3">
-      <Col md="5">
-        <InputGroup>
+    <Container className='p-sm-5 p-md-0'>
+    <Row className=" mt-7">
+      <Col md="6">
+      <div className='text-center text-md-left' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', minHeight: '30vh' }}>
+      <h1 className='font-weight-bold' style={{ fontSize: '4rem', color: '#2C3335' }}>GitSearch</h1>
+      <p style={{ color: '#2C3335' }}>Search any github user's profile and see their work.</p>
+
+      </div>
+      </Col>  
+      <Col md='6' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '4rem' }}>
+      <InputGroup>
           <Input
             type="text"
             value={query}
@@ -56,11 +63,16 @@ const Home = () => {
           />
           <InputGroupAddon addonType="append">
              &nbsp; &nbsp;
-            <Button onClick={fetchDetails} color="primary">Fetch User</Button>
+            <Button onClick={fetchDetails} color="primary" style={{ backgroundColor: '#2C3335' }}>Fetch User</Button>
           </InputGroupAddon>
         </InputGroup>
+        </Col>
+        </Row>
+      <Row mt="3">
+      <Col md="4">
         { user ? <UserCard user={user}/> : null}
-      </Col>
+      </Col>  
+      <Col md='1'></Col>
       <Col md="7">
       {user ? <Repos repos_url={user.repos_url}/> : null}
       </Col>

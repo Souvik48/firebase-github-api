@@ -21,7 +21,8 @@ const Header = () => {
     const toggle = () => setIsOpen(!isOpen)
 
     return(
-        <Navbar color="info" light expand="md">
+        //<Navbar color="info" light expand="md">
+        <Navbar style={{ backgroundColor: '#2C3335' }} dark expand='md'>
           <NavbarBrand>
           <Link to="/" className="text-white">
           GitFire App
