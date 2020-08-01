@@ -29,6 +29,8 @@ import FirebaseConfig from "./Config/FirebaseConfig"
 
 //init firebase
 firebase.initializeApp(FirebaseConfig)
+//as your application renders,
+//firebase needs to kick in before anything 
 
 //Converting to ES-6
 const App = () => {

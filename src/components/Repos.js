@@ -4,7 +4,7 @@ import {ListGroup, ListGroupItem} from "reactstrap"
 
 
 const Repos = ({repos_url}) => {
-
+//repos_url ---> written like this to ascape from props.something 
     const [repos,setRepos] = useState([])
 
     const fetchRepos = async () => {
@@ -30,3 +30,5 @@ const Repos = ({repos_url}) => {
     )
 }
 export default Repos;
+
+//Home is the main Page

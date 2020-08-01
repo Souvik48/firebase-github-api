@@ -18,3 +18,5 @@ const UserCard = ({user}) => {
     )
 }
 export default UserCard;
+
+//Home is the main Page
