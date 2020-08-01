@@ -1,8 +1,9 @@
 import React, {useState, useContext} from "react"
 import {
  Collapse,//Mobile Optimization
- Navbar,NavbarToggler,
- NavbarBrand,Nav,
+ Navbar,NavbarToggler,//to toggle the navbar bigone or smallone
+ NavbarBrand,//to keep the text on the left hand side
+ Nav,
  NavItem,NavLink,NavbarText
 } from "reactstrap"
 
@@ -13,6 +14,7 @@ import {UserContext} from "../context/UserContext"
 const Header = () => {
 
     const context = useContext(UserContext)
+    //whatever value is present in UserContext is now stored in context
    
     const [isOpen,setIsOpen] = useState(false);
 
@@ -22,7 +24,7 @@ const Header = () => {
         <Navbar color="info" light expand="md">
           <NavbarBrand>
           <Link to="/" className="text-white">
-          LCO GitFire App
+          GitFire App
           </Link>
           </NavbarBrand>
           <NavbarText className="text-white">

@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+//bootstrap
 import "bootstrap/dist/css/bootstrap.min.css"
 
 //react-router
@@ -12,8 +12,9 @@ import {ToastContainer} from "react-toastify"
 import "react-toastify/dist/ReactToastify.min.css" //it's css
 
 //firebase-->autoimport from signup.js
-import firebase from "firebase/app"
-import "firebase/auth"
+import firebase from "firebase/app" //modern one is import
+//It is a good way to check npm if they have updated or not
+import "firebase/auth" //package
 
 //components
 
@@ -33,6 +34,7 @@ firebase.initializeApp(FirebaseConfig)
 const App = () => {
 
   const [user,setUser] = useState(null) //Create a user state
+  //null means there is no user right now(logout)
 
   return (
     <BRouter>
