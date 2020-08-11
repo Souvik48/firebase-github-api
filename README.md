@@ -77,7 +77,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 <img src="images/Signin.PNG">
 
 ### Main Page
-<img src="images/MAIN.PNG">
+<img src="images/MainPage.PNG">
 
 ### Fetch User Page
 <img src="images/FetchUser.PNG">
