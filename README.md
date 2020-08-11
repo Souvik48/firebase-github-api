@@ -70,4 +70,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 
 ### Project Look
-<img src="images/Signin.png">
+<img src="images/Signin.PNG">
