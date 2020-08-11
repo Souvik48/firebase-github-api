@@ -69,5 +69,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 
 
-### Project Look
+**Project Look**
+### Signup Page
+<img src="images/Signup.PNG">
+
+### Signin Page
 <img src="images/Signin.PNG">
